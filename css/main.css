@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.conteiner {
+  width: 70%;
+  height: 800px;
+  display: grid;
+  background-color: #fff;
+  grid-template-areas: "side-left side-right";
+  margin: 50px auto;
+  grid-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imege_big {
+  grid-area: imege-big;
+}
+
+.imege_small {
+  grid-area: imege-small;
+}
+
+.imege_big2 {
+  grid-area: imege-big2;
+}
+
+.imege_small2 {
+  grid-area: imege-small2;
+}
+
+.side_left {
+  grid-area: side-left;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "imege-big imege-small" "imege-big imege-big2" "imege-small2 imege-big2";
+}
+
+.card1 {
+  grid-area: card1;
+}
+
+.card2 {
+  grid-area: card2;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.card4 {
+  grid-area: card4;
+}
+
+.side_right {
+  grid-area: side-right;
+  background-color: #fff;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "card1 card1" "card2 card3" "card4 card4";
+}
+
+.image {
+  border-radius: 20px;
+}/*# sourceMappingURL=main.css.map */
